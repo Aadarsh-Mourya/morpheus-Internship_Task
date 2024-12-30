@@ -27,8 +27,6 @@ class Form(models.Model):
     title = models.CharField(max_length=200)
     description = models.CharField(max_length=10000, blank = True)
     creator = models.ForeignKey(User, on_delete = models.CASCADE, related_name = "creator")
-    background_color = models.CharField(max_length=20, default = "#d9efed")
-    text_color = models.CharField(max_length=20, default="#272124")
     collect_email = models.BooleanField(default=False)
     authenticated_responder = models.BooleanField(default = False)
     edit_after_submit = models.BooleanField(default=False)

@@ -48,7 +48,7 @@ python manage.py runserver
 
 ### Viewing Responses
 1. Navigate to the form's "Responses" section.
-2. View individual responses or download them as a CSV file.
+2. View individual responses.
 
 ### Customizing the Form
 1. Use the "Customize Theme" option to change the form's appearance.
